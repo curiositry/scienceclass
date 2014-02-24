@@ -39,7 +39,7 @@ Although we can’t fit the world into our shabby little electronics shack, we c
 
 <div style="background-color: #eee;padding:20px;font-family: Courier, consolas, mono;font-size: .7em;">
 
-<p>Science Class is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date.</p>
+<p>Science Class is not responsible for, and expressly disclaims all liability for damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date.</p>
 
 <p>Although the Science Class Web site may include links providing direct access to other websites, Science Class is not responsible for the accuracy or content of information contained in these sites.</p>
 
