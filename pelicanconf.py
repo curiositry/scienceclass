@@ -6,7 +6,7 @@ AUTHOR = u'Omphalosskeptic'
 SITENAME = u'Science Class'
 SITE_TITLE = ' — The Free & Open Science Class'
 SITESUBTITLE = 'The Free & Open'
-SITEURL = 'localhost/scienceclass'
+SITEURL = 'http://scienceclass.github.io'
 
 FEED_DOMAIN = SITEURL
 
