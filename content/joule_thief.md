@@ -1,11 +1,11 @@
 Title: Joule Thief
 Tags: Project, Electronics, Circuit
 Category: Electronics
-Coverimg: http://localhost/scienceclass/output/images/joule-thief/coverimage.png
+Coverimg: http://scienceclass.github.io/images/joule-thief/coverimage.png
 Author: Omphalosskeptic
 Summary: Power a flashlight with “Dead” Batteries. This simple circuit steps up the voltage and lets you run an LED off batteries from the recycling depot. Free Power!
 
-<span class="grayscale"> ![The Finished Product](http://localhost/scienceclass/output/images/joule-thief/9-test-crop.png)</span>
+<span class="grayscale"> ![The Finished Product](http://scienceclass.github.io/images/joule-thief/9-test-crop.png)</span>
 
 ### Power a flashlight with “Dead” Batteries
 
@@ -26,7 +26,7 @@ The name suggests the notion that the circuit is stealing energy — a [Joule](h
 First, you will need to have the bits. The nice thing about this project is everything can be salvaged from recycled electronics. All the parts are also easily available online, and at many DIY stores like Radioshack. You will need:
 
 <span class="grayscale">
-![Parts](http://localhost/scienceclass/output/images/joule-thief/1-parts-crop.png)
+![Parts](http://scienceclass.github.io/images/joule-thief/1-parts-crop.png)
 </span>
 
 - **A TRANSISTOR:** *This needs to be a “NPN Signal Transistor”. The following types have been confirmed to work with this project: 2N3904 (very common), PN2222A, and C1815. Whatever kind you choose, and whether you buy or salvage it, make sure you know the ‘Pinout’. The pins will be labeled E (for Emitter), B (for Base), and C (for Collector) — for the rest of this tutorial we will be working with the 2N3904, which has a pinout, left to right, of EBC when looked at from the front (flat) side.*
@@ -47,28 +47,28 @@ First, you will need to have the bits. The nice thing about this project is ever
 
 #### How Breadboards Work
 <span class="grayscale">
-![Breadboard — view from back](http://localhost/scienceclass/output/images/joule-thief/2-breadboard-crop.png)
+![Breadboard — view from back](http://scienceclass.github.io/images/joule-thief/2-breadboard-crop.png)
 </span>
 
 Above is a photo of the back side of a small breadboard. As you can see, rows of metal run out from the centre. On the other side there are holes to insert wires or component leads. When a wire is inserted, it comes in contact with the metal *row* and becomes connected to anything inserted into the same row. On larger breadboards, there are often “Bus” strips, which run along the edges, separately and in the opposite direction. Keep this in mind if you are using a larger breadboard.
 
 #### The Transistor
 <span class="grayscale">
-![Parts](http://localhost/scienceclass/output/images/joule-thief/3-transistor-crop.png)
+![Parts](http://scienceclass.github.io/images/joule-thief/3-transistor-crop.png)
 </span>
 
 Pop the transistor in as shown, with each lead inserted into a separate *row* of the breadboard.
 
 #### The Resistor
 <span class="grayscale">
-![Parts](http://localhost/scienceclass/output/images/joule-thief/4-resistor-crop.png)
+![Parts](http://scienceclass.github.io/images/joule-thief/4-resistor-crop.png)
 </span>
 
 Add the resistor so that one of its leads goes in the same row as the transistor’s *Base* (the centre lead for 2N2222A and 2N3904 transistors, such as the one shown). The other lead of the resistor can go into the row two to the right of the transistor’s *Collector*, as shown.
 
 #### The LED
 <span class="grayscale">
-![Parts](http://localhost/scienceclass/output/images/joule-thief/5-led-crop.png)
+![Parts](http://scienceclass.github.io/images/joule-thief/5-led-crop.png)
 </span>
 
 Add the LED so that the Negative (-) lead goes in the same row as the transistor’s *Emitter* (if you use a 2N3904 or PN2222A, this is the left lead), and the Positive (+) lead goes in the same row as the transistor’s *Collector* (if you use a 2N3904 or PN2222A, this is the right lead).
@@ -77,7 +77,7 @@ You can tell which is the positive lead of an LED because the part it’s attach
 
 #### Winding the Coil
 <span class="grayscale">
-![Parts](http://localhost/scienceclass/output/images/joule-thief/6-winding-crop.png)
+![Parts](http://scienceclass.github.io/images/joule-thief/6-winding-crop.png)
 </span>
 
 The coil ‘winds up’ being the most critical component in this circuit. Here’s how to wind it:
@@ -91,14 +91,14 @@ The coil ‘winds up’ being the most critical component in this circuit. Here�
 <br>
 #### The Coil
 <span class="grayscale">
-![Parts](http://localhost/scienceclass/output/images/joule-thief/7-coil-crop.png)
+![Parts](http://scienceclass.github.io/images/joule-thief/7-coil-crop.png)
 </span>
 
 Insert the *single* coil leads into the breadboard, one in the row with the transistor’s *Collector* and the LEDs positive terminal, and one into the row with the transistor’s *Emitter* and the LEDs negative terminal.
 
 #### The Wire
 <span class="grayscale">
-![Parts](http://localhost/scienceclass/output/images/joule-thief/8-wire-crop.png)
+![Parts](http://scienceclass.github.io/images/joule-thief/8-wire-crop.png)
 </span>
 
 Insert a short length of solid-core wire into the same row as the transistor’s *Emitter*. This is your negative power lead.
@@ -106,7 +106,7 @@ Insert a short length of solid-core wire into the same row as the transistor’s
 ### See if it Works
 
 <span class="grayscale"> 
-	![The Finished Product](http://localhost/scienceclass/output/images/joule-thief/9-test-crop.png)
+	![The Finished Product](http://scienceclass.github.io/images/joule-thief/9-test-crop.png)
 </span>
 
 You’re done ... hopefully. Let’s test the circuit.

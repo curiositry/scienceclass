@@ -1,12 +1,12 @@
 Title: Minimalist DC Motor
 Tags: Project, Electronics, Circuit
-Coverimg: http://localhost/scienceclass/output/images/dc-motor/coverimage.png
+Coverimg: http://scienceclass.github.io/images/dc-motor/coverimage.png
 Category: Electronics
 Author: Omphalosskeptic
 Summary: Convert electricity to motion with a simple DC  Motor.
 
 <span class="grayscale"> 
-	![The Finished Product](http://localhost/scienceclass/output/images/dc-motor/12-done-crop.png)
+	![The Finished Product](http://scienceclass.github.io/images/dc-motor/12-done-crop.png)
 </span>
 
 ### Create motion with Electricity
@@ -15,7 +15,7 @@ In this project you will build a simple motor powered by Direct Current. It uses
 
 ### Bill of Materials
 <span class="grayscale"> 
-	![The parts for a DC Induction Motor](http://localhost/scienceclass/output/images/dc-motor/1-parts-crop.png)
+	![The parts for a DC Induction Motor](http://scienceclass.github.io/images/dc-motor/1-parts-crop.png)
 </span>
 
 For this project you will need:  
@@ -41,7 +41,7 @@ For this project you will need:
 #### Wind the coil
 
 <span class="grayscale"> 
-	![Wind the coil](http://localhost/scienceclass/output/images/dc-motor/2-winding-crop.png)
+	![Wind the coil](http://scienceclass.github.io/images/dc-motor/2-winding-crop.png)
 </span>
 
 Wind about 15 turns of magnet wire onto your coil form, leaving a few inches of wire on either end of the coil. Unlike the Joule Thief’s Toroid, you don’t have to worry about overlapping turns on the coil — they might even make it *more* efficient.
@@ -51,7 +51,7 @@ NOTE: As you can see, the wire was quite bent up in the parts photo, because it 
 #### Finish the coil
 
 <span class="grayscale"> 
-	![The Coil](http://localhost/scienceclass/output/images/dc-motor/3-coil-crop.png)
+	![The Coil](http://scienceclass.github.io/images/dc-motor/3-coil-crop.png)
 </span>
 
 Carefully slide the coil off the form. Wrap each of the loose ends around the main bundle of wire a few times to hold it together. Make sure they come out directly opposite each other and are as straight as possible.
@@ -61,7 +61,7 @@ You have just made the **Armature**. I’ll continue calling it the coil because
 #### Sand the wire
 
 <span class="grayscale"> 
-	![Sand the Wire](http://localhost/scienceclass/output/images/dc-motor/4-sanding-crop.png)
+	![Sand the Wire](http://scienceclass.github.io/images/dc-motor/4-sanding-crop.png)
 </span>
 
 Place the coil as shown — vertically, with the side your’re working on supported — and sand the varnish off of **only one side** of each of the wires — make sure it is **the same side** for both wires. This is one of the most important steps to get right.
@@ -72,10 +72,10 @@ Note that you are sanding the varnish off one side the wire for its whole length
 #### Make the Supports
 
 <span class="grayscale"> 
-	![Bending the Supports](http://localhost/scienceclass/output/images/dc-motor/5-bending-crop.png)
+	![Bending the Supports](http://scienceclass.github.io/images/dc-motor/5-bending-crop.png)
 </span>
 <span class="grayscale"> 
-	![Finished Supports](http://localhost/scienceclass/output/images/dc-motor/6-support-crop.png)
+	![Finished Supports](http://scienceclass.github.io/images/dc-motor/6-support-crop.png)
 </span>
 
 Cut two equal lengths of stiff steel wire. Bend small v-shaped cradles into one end to support the coil and get power to it, and bend horizontal squares into the other, so make it easier to glue it to the baseplate.
@@ -83,7 +83,7 @@ Cut two equal lengths of stiff steel wire. Bend small v-shaped cradles into one 
 #### Attach the supports
 
 <span class="grayscale"> 
-	![Attach the Supports](http://localhost/scienceclass/output/images/dc-motor/7-glued-crop.png)
+	![Attach the Supports](http://scienceclass.github.io/images/dc-motor/7-glued-crop.png)
 </span>
 
 Glue the two supports so that the vertical part of the supports are across from each other — centred on the board in one direction, and about 1 1/2 inches apart in the other. Hot glue works well for this. 
@@ -91,7 +91,7 @@ Glue the two supports so that the vertical part of the supports are across from 
 #### Attach the Magnet
 
 <span class="grayscale"> 
-	![Add the Magnet](http://localhost/scienceclass/output/images/dc-motor/8-done-crop.png)
+	![Add the Magnet](http://scienceclass.github.io/images/dc-motor/8-done-crop.png)
 </span>
 
 It is important to get the magnet **as close to the coil as possible** without it rubbing. Depending on how tall you made the supports, you may have to put a riser under the magnet — in the version pictured, I made the supports too tall, and used a section of hot glue stick to mount the magnet at the correct height.
@@ -102,14 +102,14 @@ It doesn’t matter what pole of the magnet is facing up for this project — wh
 ### Test it
 #### Attach Power
 <span class="grayscale"> 
-	![Power it Up](http://localhost/scienceclass/output/images/dc-motor/9-power-crop.png)
+	![Power it Up](http://scienceclass.github.io/images/dc-motor/9-power-crop.png)
 </span>
 
 Clip test leads from your 12V DC source onto the vertical supports (or solder to them, or wrap wires around them. It doesn’t matter, but test leads are the most convenient.)
 
 #### Fire it Up
 <span class="grayscale"> 
-	![Get it started](http://localhost/scienceclass/output/images/dc-motor/10-testing-crop.png)
+	![Get it started](http://scienceclass.github.io/images/dc-motor/10-testing-crop.png)
 </span>
 
 Place the coil in the cradle. Because of the way the wire is sanded, you will likely need to give it at little push to get it started.
@@ -118,7 +118,7 @@ The motor will want to spin in one direction, so experiment to see which way it 
 
 #### Fine Tune
 <span class="grayscale"> 
-	![Running](http://localhost/scienceclass/output/images/dc-motor/11-running-crop.png)
+	![Running](http://scienceclass.github.io/images/dc-motor/11-running-crop.png)
 </span>
 
 To get the best performance, you will need to tune the motor in the following ways.
@@ -128,7 +128,7 @@ To get the best performance, you will need to tune the motor in the following wa
 - **Adjust the sanding job** Make sure that the side which has the varnished removed has it all the way removed and extends half way around the wire (or maybe a little bit more), and that the side with the varnish still on is fully coated.
 
 <span class="grayscale"> 
-	![The Finished Product](http://localhost/scienceclass/output/images/dc-motor/12-done-crop.png)
+	![The Finished Product](http://scienceclass.github.io/images/dc-motor/12-done-crop.png)
 </span>
 
 Your’re done!
