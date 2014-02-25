@@ -122,6 +122,9 @@ Lights? Camera? Action? **If the LED lit up and you let out a shout of victory, 
 
 
 ### A Technical Digression
+<span class="grayscale">
+![Joule Thief Schematic](http://localhost/scienceclass/output/images/joule-thief/10-schematic-full-crop.png)
+</span>
 
 
 So now you have this neat circuit that you built with your own two hands, and chances are you don’t have a clue how it actually works. 

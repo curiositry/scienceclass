@@ -19,6 +19,10 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,
   box-sizing: border-box;
 }
 
+html, body{
+	width: 100%;
+    height:100%;
+}
 
 /* Body */
 body {
@@ -712,7 +716,6 @@ text-align: center;
            url('http://scienceclass.github.io/theme/fonts/linlibertine_rb-webfont.ttf') format('truetype');
       font-weight: 700;
       font-style: normal;
-
   }
 
   @font-face {
