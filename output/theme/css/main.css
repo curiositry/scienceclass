@@ -65,7 +65,7 @@ h3{
 }  
 
 strong, b, .strong{
-	font-weight: bold;
+	font-weight: 700;
 }
 
 em, i, .em{
@@ -684,10 +684,10 @@ text-align: center;
 
 @font-face {
       font-family: 'Linux Libertine Display';
-      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_dr-webfont.eot');
-      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_dr-webfont.eot?#iefix') format('embedded-opentype'),
-           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_dr-webfont.woff') format('woff'),
-           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_dr-webfont.ttf') format('truetype');
+      src: url('http://scienceclass.github.io/theme/fonts/linlibertine_dr-webfont.eot');
+      src: url('http://scienceclass.github.io/theme/fonts/linlibertine_dr-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://scienceclass.github.io/theme/fonts/linlibertine_dr-webfont.woff') format('woff'),
+           url('http://scienceclass.github.io/theme/fonts/linlibertine_dr-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
 
@@ -695,10 +695,10 @@ text-align: center;
 
   @font-face {
       font-family: 'Linux Libertine';
-      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_r-webfont.eot');
-      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_r-webfont.eot?#iefix') format('embedded-opentype'),
-           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_r-webfont.woff') format('woff'),
-           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_r-webfont.ttf') format('truetype');
+      src: url('http://scienceclass.github.io/theme/fonts/linlibertine_r-webfont.eot');
+      src: url('http://scienceclass.github.io/theme/fonts/linlibertine_r-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://scienceclass.github.io/theme/fonts/linlibertine_r-webfont.woff') format('woff'),
+           url('http://scienceclass.github.io/theme/fonts/linlibertine_r-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
 
@@ -706,10 +706,10 @@ text-align: center;
 
   @font-face {
       font-family: 'Linux Libertine';
-      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_rb-webfont.eot');
-      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_rb-webfont.eot?#iefix') format('embedded-opentype'),
-           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_rb-webfont.woff') format('woff'),
-           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_rb-webfont.ttf') format('truetype');
+      src: url('http://scienceclass.github.io/theme/fonts/linlibertine_rb-webfont.eot');
+      src: url('http://scienceclass.github.io/theme/fonts/linlibertine_rb-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://scienceclass.github.io/theme/fonts/linlibertine_rb-webfont.woff') format('woff'),
+           url('http://scienceclass.github.io/theme/fonts/linlibertine_rb-webfont.ttf') format('truetype');
       font-weight: 700;
       font-style: normal;
 
@@ -717,10 +717,10 @@ text-align: center;
 
   @font-face {
       font-family: 'Linux Libertine';
-      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_ri-webfont.eot');
-      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_ri-webfont.eot?#iefix') format('embedded-opentype'),
-           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_ri-webfont.woff') format('woff'),
-           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_ri-webfont.ttf') format('truetype');
+      src: url('http://scienceclass.github.io/theme/fonts/linlibertine_ri-webfont.eot');
+      src: url('http://scienceclass.github.io/theme/fonts/linlibertine_ri-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://scienceclass.github.io/theme/fonts/linlibertine_ri-webfont.woff') format('woff'),
+           url('http://scienceclass.github.io/theme/fonts/linlibertine_ri-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: italic;
 
@@ -728,10 +728,10 @@ text-align: center;
 
   @font-face {
       font-family: 'Linux Libertine SC';
-      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_as-webfont.eot');
-      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_as-webfont.eot?#iefix') format('embedded-opentype'),
-           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_as-webfont.woff') format('woff'),
-           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_as-webfont.ttf') format('truetype');
+      src: url('http://scienceclass.github.io/theme/fonts/linlibertine_as-webfont.eot');
+      src: url('http://scienceclass.github.io/theme/fonts/linlibertine_as-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://scienceclass.github.io/theme/fonts/linlibertine_as-webfont.woff') format('woff'),
+           url('http://scienceclass.github.io/theme/fonts/linlibertine_as-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
   }
