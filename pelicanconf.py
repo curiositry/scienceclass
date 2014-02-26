@@ -16,7 +16,7 @@ LOGO_URL = 'images/scienceclass.png';
 
 PATH  = 'content'
 
-# MENUITEMS = (('Projects', 'projects.html'),)
+MENUITEMS = (('⌂ Home', '/'),('⚛ Projects', '/category/electronics.html'),('☏ Contact', '/pages/contact.html'),)
 
 DEFAULT_CATEGORY = 'Electronics'
 
@@ -28,8 +28,8 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
-DISPLAY_PAGES_ON_MENU = True
-DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_DATE = 'fs'
 
 # Feed generation is usually not desired when developing
