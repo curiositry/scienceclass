@@ -5,14 +5,16 @@ from __future__ import unicode_literals
 AUTHOR = u'Omphalosskeptic'
 SITENAME = u'Science Class'
 SITE_TITLE = ' — The Free & Open Science Class'
-SITESUBTITLE = 'The Free & Open'
+SITESUBTITLE = '*Science for Smart-Alecs'
 SITEURL = 'http://scienceclass.github.io'
 
 FEED_DOMAIN = SITEURL
 
 PDF_GENERATOR = True
 
-LOGO_URL = 'images/scienceclass.png';
+USE_CLASSY_SUBTHEME = True
+
+SITELOGO = SITEURL+'/images/scienceclass.png'
 
 PATH  = 'content'
 
@@ -20,7 +22,7 @@ MENUITEMS = (('⌂ Home', '/'),('⚛ Projects', '/category/electronics.html'),('
 
 DEFAULT_CATEGORY = 'Electronics'
 
-THEME = 'clean'
+THEME = 'bohemian'
 
 PAGE_DIR = 'pages'
 

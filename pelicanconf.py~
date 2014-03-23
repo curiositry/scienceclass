@@ -6,21 +6,23 @@ AUTHOR = u'Omphalosskeptic'
 SITENAME = u'Science Class'
 SITE_TITLE = ' — The Free & Open Science Class'
 SITESUBTITLE = 'The Free & Open'
-SITEURL = 'localhost/scienceclass'
+SITEURL = 'http://scienceclass.github.io'
 
 FEED_DOMAIN = SITEURL
 
 PDF_GENERATOR = True
 
+USE_CLEAN_SUBTHEME = True
+
 LOGO_URL = 'images/scienceclass.png';
 
 PATH  = 'content'
 
-# MENUITEMS = (('Projects', 'projects.html'),)
+MENUITEMS = (('⌂ Home', '/'),('⚛ Projects', '/category/electronics.html'),('☏ Contact', '/pages/contact.html'),)
 
 DEFAULT_CATEGORY = 'Electronics'
 
-THEME = 'clean'
+THEME = 'bohemian'
 
 PAGE_DIR = 'pages'
 
@@ -28,8 +30,8 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
-DISPLAY_PAGES_ON_MENU = True
-DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_DATE = 'fs'
 
 # Feed generation is usually not desired when developing
