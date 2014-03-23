@@ -18,9 +18,9 @@ SITELOGO = SITEURL+'/images/scienceclass.png'
 
 PATH  = 'content'
 
-MENUITEMS = (('⌂ Home', '/'),('⚛ Projects', '/category/electronics.html'),('☏ Contact', '/pages/contact.html'),)
+MENUITEMS = (('⌂ Home', '/'),('⚛ Projects', '/category/projects.html'),('☏ Contact', '/pages/contact.html'),)
 
-DEFAULT_CATEGORY = 'Electronics'
+DEFAULT_CATEGORY = 'Projects'
 
 THEME = 'bohemian'
 

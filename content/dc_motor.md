@@ -1,7 +1,7 @@
 Title: Minimalist DC Motor
-Tags: Project, Electronics, Circuit
+Date: 2014-2-14 6:10
+Tags: Electronics, Circuit
 Coverimg: http://scienceclass.github.io/images/dc-motor/coverimage.png
-Category: Electronics
 Author: Omphalosskeptic
 Summary: Convert electricity to motion with a simple DC  Motor.
 

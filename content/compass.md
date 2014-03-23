@@ -1,7 +1,8 @@
 Title: Build a Compass
 Tags: Project, Physics, Magnetism
 Coverimg: http://scienceclass.github.io/images/compass/coverimage.png
-Category: Physics
+Status: draft
+Tags: Physics
 Author: Omphalosskeptic
 Summary: In this project you will build a magnetic compass from a few basic materials.
 

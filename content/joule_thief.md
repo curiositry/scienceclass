@@ -1,6 +1,6 @@
 Title: Joule Thief
-Tags: Project, Electronics, Circuit
-Category: Electronics
+Date: 2014-2-3 8:25
+Tags: Electronics, Circuit
 Coverimg: http://scienceclass.github.io/images/joule-thief/coverimage.png
 Author: Omphalosskeptic
 Summary: Power a flashlight with “Dead” Batteries. This simple circuit steps up the voltage and lets you run an LED off batteries from the recycling depot. Free Power!

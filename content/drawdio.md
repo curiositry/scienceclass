@@ -1,6 +1,6 @@
-Title: Drawdio: The $1 Musical Pencil
-Tags: Project, Electronics, Circuit, Stub
-Category: Electronics
+Title: Drawdio: Sketch Music
+Date: 2014-3-10 11:25
+Tags: Electronics, Circuit, Stub
 Coverimg: http://scienceclass.github.io/images/drawdio/coverimage.png
 Author: Omphalosskeptic
 Summary: <strong>Build a pencil that draws music!</strong> The Drawdio is a simple musical synthesizer that uses the conductive properties of pencil graphite to create different sounds.

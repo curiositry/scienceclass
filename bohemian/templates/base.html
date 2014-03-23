@@ -53,6 +53,7 @@
 <body>
   <!-- /.menu --><br clear="all">
 
+  <div class="container">
   <header class="siteheader">
       {% if SITELOGO %}
         <a href="{{ SITEURL }}/" class="anchor--unstyled">
@@ -66,7 +67,7 @@
       </h1>
       {% endif %}
   </header><!-- /.banner -->
-
+  </div>
   <nav class="menu">
     <ul class="menu__list">
       {% for title, link in MENUITEMS %}
@@ -91,7 +92,8 @@
       {% endif %}
     </ul>
   </nav>
-  
+  <div class="container">
+
   {% block content %}
   {% endblock %}
   <hr style="background-color: white; border:1px dotted #eee;">
@@ -103,5 +105,6 @@
     </span>
   </footer>
   <h2 class="siteheader__sitesubtitle">{{ SITESUBTITLE }}</h2>
+</div> <!-- END CONTAINER -->
 </body>
 </html>
