@@ -12,7 +12,7 @@
       <img src="{{ article.coverimg }}" alt="{{ article.title }} Cover Image" />
     </div>
     <article class="content__post">
-      <header> <h3 class="entry-title" style="font-weight: 700;"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3> </header>
+      <header> <h3 class="entry-title" style="font-weight: 700;line-height: 1.4em;"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3> </header>
       <footer class="content__post-info">
         <span class="published" title="{{ article.date.isoformat() }}"> Published: {{ article.locale_date }} </span> &bull;
         <span class="author"> By 
@@ -25,7 +25,7 @@
         {% endif %}
         </span>
       </footer><!-- /.post-info -->
-      <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
+      <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content<br clear="all"> -->
     </article>
   </li>
 {% endfor %}

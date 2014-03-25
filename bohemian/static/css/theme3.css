@@ -11,7 +11,7 @@ body{
 
 h1, h2, h3, h4, h5, h6,
 .h1,.h2,.h3,.h4,.h5,.h6{
-  font-family: 'Playfair Display SC', Playfair Display SC Linux Libertine, Linux Libertine O, Noto Serif, sans-serif;
+  font-family: 'Playfair Display SC', Playfair Display SC, Linux Libertine, Linux Libertine O, Noto Serif, sans-serif;
   
   -moz-font-feature-settings: "dlig" 1, "hlig" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "sups" 0, "subs" 0, "sinf" 0, "ordn" 0, "zero" 1, "frac" 1, "c2sc" 0, "smcp" 1, "c2pc" 0, "pcap" 0, "case" 0, "cpsp" 0, "swsh" 1, "cswh" 1, "hist" 1, "titl" 1;
   -ms-font-feature-settings: "dlig" 1, "hlig" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "sups" 0, "subs" 0, "sinf" 0, "ordn" 0, "zero" 1, "frac" 1, "c2sc" 0, "smcp" 1, "c2pc" 0, "pcap" 0, "case" 0, "cpsp" 0, "swsh" 1, "cswh" 1, "hist" 1, "titl" 1;
@@ -106,19 +106,8 @@ code, pre{
 }
 
 .coverimage{
-  display: -webkit-box; 
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-
   padding-bottom: 20px;
+  width: 100%;
 }
 
 .coverimage img{
@@ -134,9 +123,16 @@ code, pre{
   border-radius: 50%;
 
   border: 4px double #aaa;
+  margin: 0 auto;
 }
 .content__post-list, .content__post-list li{
   list-style-type:none;
+  clear:both;
+}
+
+.content__post-list li{
+  border-bottom: 1px solid moccasin;
+  margin-bottom: 40px;
   clear:both;
 }
 
@@ -268,6 +264,8 @@ code, pre{
   .coverimage{
     float:left;
     margin-right: 40px;
+    width: auto;
+    display: block;
   }
 
   .coverimage img{

@@ -54,20 +54,21 @@
   <!-- /.menu --><br clear="all">
 
   <div class="container">
-  <header class="siteheader">
-      {% if SITELOGO %}
-        <a href="{{ SITEURL }}/" class="anchor--unstyled">
-          <img class="siteheader__logo" src="{{ SITELOGO }}">
-        </a>
-      {% else %}
-      <h1 class="siteheader__sitename">
-        <a href="{{ SITEURL }}/">
-          {{ SITENAME }} 
-        </a>
-      </h1>
-      {% endif %}
-  </header><!-- /.banner -->
-  </div>
+    <header class="siteheader">
+        {% if SITELOGO %}
+          <a href="{{ SITEURL }}/" class="anchor--unstyled">
+            <img class="siteheader__logo" src="{{ SITELOGO }}">
+          </a>
+        {% else %}
+        <h1 class="siteheader__sitename">
+          <a href="{{ SITEURL }}/">
+            {{ SITENAME }} 
+          </a>
+        </h1>
+        {% endif %}
+    </header><!-- /.banner -->
+  </div> <!-- END CONTAINER -->
+
   <nav class="menu">
     <ul class="menu__list">
       {% for title, link in MENUITEMS %}
@@ -92,6 +93,7 @@
       {% endif %}
     </ul>
   </nav>
+  
   <div class="container">
 
   {% block content %}
