@@ -4,7 +4,7 @@ Coverimg: http://scienceclass.github.io/images/compass/coverimage.png
 Status: draft
 Tags: Physics
 Author: Omphalosskeptic
-Summary: In this project you will build a magnetic compass from a few basic materials.
+Summary: In this project you will build a magnetic compass from a few basic materials …
 
 <span class="grayscale"> 
 	![The Finished Product](http://scienceclass.github.io/images/compass/12-done-crop.png)

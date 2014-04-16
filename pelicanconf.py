@@ -4,9 +4,10 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Omphalosskeptic'
 SITENAME = u'Science Class'
-SITE_TITLE = ' — The Free & Open Science Class'
+SITE_TITLE = 'The Free & Open Science Class'
 SITESUBTITLE = '*Science for Smart-Alecs'
 SITEURL = 'http://scienceclass.github.io'
+META_DESCRIPTION = 'Science Class aims to stimulate and inform bright people like you by providing resources on how to build all kinds of fun, no-nonsense science projects.'
 
 FEED_DOMAIN = SITEURL
 
@@ -18,9 +19,11 @@ SITELOGO = SITEURL+'/images/scienceclass.png'
 
 PATH  = 'content'
 
-MENUITEMS = (('⌂ Home', '/'),('⚛ Projects', '/category/projects.html'),('☏ Contact', '/pages/contact.html'),)
+MENUITEMS = (('⌂ Home', '/'),('⚛ Projects', '/category/projects.html'),('✑ Thoughts', '/category/thoughts.html'),('☏ Contact', '/pages/contact.html'),)
 
 DEFAULT_CATEGORY = 'Projects'
+
+USE_FOLDER_AS_CATEGORY = True
 
 THEME = 'bohemian'
 

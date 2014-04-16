@@ -1,7 +1,7 @@
 Title: Invisible Ink
 Tags: Chemistry
 Status: draft
-Summary: This Scienceclass-original Invisible ink formula can be made from household materials, as well as being more effective, and harder to break than more common recipies.
+Summary: This Scienceclass-original Invisible ink formula can be made from household materials, as well as being more effective, and harder to break than more common recipies …
 
 Have you ever wanted to communicate with only one person? To write a letter that couldn’t be snooped on? Now you can.
 

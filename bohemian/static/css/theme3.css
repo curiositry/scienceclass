@@ -141,50 +141,50 @@ code, pre{
 }
 
 /* CONTACT FORM STYLES*/
-  form fieldset label {
-    display: block;
-    float: none;
-    width: auto;
-    margin: 0 0 5px 0;
-    margin: 4px 0 5px 0;
-  /*font-weight: bold;*/
-  -moz-font-feature-settings:"smcp" 1; 
-  -moz-font-feature-settings:"smcp=1"; 
-  -ms-font-feature-settings:"smcp" 1; 
-  -o-font-feature-settings:"smcp" 1; 
-  -webkit-font-feature-settings:"smcp" 1; 
-  font-feature-settings:"smcp" 1;
-  text-transform: lowercase;
-  font-variant: small-caps;
-  }
-  form fieldset.form-actions,
-  form fieldset p.form-help {
-    margin-left: 0;
-    padding-left: 0;
-  }
-  form fieldset input.form-text,
-  form fieldset textarea {
-    width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }  
-  input, textarea{
-    border: 1px solid #ddd;
-    font-family: serif;
-    padding:7px !important;
-    font-size: 1em;
-  }
+form fieldset label {
+  display: block;
+  float: none;
+  width: auto;
+  margin: 0 0 5px 0;
+  margin: 4px 0 5px 0;
+/*font-weight: bold;*/
+-moz-font-feature-settings:"smcp" 1; 
+-moz-font-feature-settings:"smcp=1"; 
+-ms-font-feature-settings:"smcp" 1; 
+-o-font-feature-settings:"smcp" 1; 
+-webkit-font-feature-settings:"smcp" 1; 
+font-feature-settings:"smcp" 1;
+text-transform: lowercase;
+font-variant: small-caps;
+}
+form fieldset.form-actions,
+form fieldset p.form-help {
+  margin-left: 0;
+  padding-left: 0;
+}
+form fieldset input.form-text,
+form fieldset textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}  
+input, textarea{
+  border: 1px solid #ddd;
+  font-family: serif;
+  padding:7px !important;
+  font-size: 1em;
+}
 
-  input:focus, textarea:focus{
-    border: 1px solid orange;
-  }
+input:focus, textarea:focus{
+  border: 1px solid orange;
+}
 
-  .content__post-info{
-    font-style: italic;
-    margin-bottom: .5em;
-    color:#999;
-  }
+.content__post-info{
+  font-style: italic;
+  margin-bottom: .5em;
+  color:#999;
+}
 
 
 
@@ -329,7 +329,7 @@ code, pre{
     background: #e5e5e5;
   }
   form input[type="submit"]:active {
-    borde r: 1px solid #ccc;
+    border: 1px solid #ccc;
     background: #eee;
   }
 }

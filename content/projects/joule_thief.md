@@ -3,7 +3,7 @@ Date: 2014-2-3 8:25
 Tags: Electronics, Circuit
 Coverimg: http://scienceclass.github.io/images/joule-thief/coverimage.png
 Author: Omphalosskeptic
-Summary: Power a flashlight with “Dead” Batteries. This simple circuit steps up the voltage and lets you run an LED off batteries from the recycling depot. Free Power!
+Summary: Power a flashlight with “Dead” Batteries. This simple circuit steps up the voltage and lets you run an LED off batteries from the recycling depot. Free Power! …
 
 <span class="grayscale"> ![The Finished Product](http://scienceclass.github.io/images/joule-thief/9-test-crop.png)</span>
 

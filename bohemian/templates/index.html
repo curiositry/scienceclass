@@ -8,9 +8,11 @@
 <ol class="content__post-list">
 {% for article in articles_page.object_list %}
   <li>
+    {% if article.coverimg %}
     <div class="coverimage">
       <img src="{{ article.coverimg }}" alt="{{ article.title }} Cover Image" />
     </div>
+    {% endif %}
     <article class="content__post">
       <header> <h3 class="entry-title" style="font-weight: 700;line-height: 1.4em;"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3> </header>
       <footer class="content__post-info">
@@ -25,7 +27,7 @@
         {% endif %}
         </span>
       </footer><!-- /.post-info -->
-      <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content<br clear="all"> -->
+      <div class="entry-content"> {{ article.summary }}</div><!-- /.entry-content<br clear="all"> --> 
     </article>
   </li>
 {% endfor %}

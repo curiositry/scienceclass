@@ -3,7 +3,7 @@ Date: 2014-2-14 6:10
 Tags: Electronics, Circuit
 Coverimg: http://scienceclass.github.io/images/dc-motor/coverimage.png
 Author: Omphalosskeptic
-Summary: Convert electricity to motion with a simple DC  Motor. This project requres few materials, all of which are easily available, and take about forty-five minutes to build.
+Summary: Convert electricity to motion with a simple DC  Motor. This project requres few materials, all of which are easily available, and take about forty-five minutes to build …
 
 <span class="grayscale"> 
 	![The Finished Product](http://scienceclass.github.io/images/dc-motor/12-done-crop.png)
