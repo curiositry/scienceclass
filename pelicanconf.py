@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Omphalosskeptic'
 SITENAME = u'Science Class'
 SITE_TITLE = 'The Free & Open Science Class'
-SITESUBTITLE = '*Science for Smart-Alecs'
+SITESUBTITLE = 'Science for Smart-Alecs'
 SITEURL = 'http://scienceclass.github.io'
 META_DESCRIPTION = 'Science Class aims to stimulate and inform bright people like you by providing resources on how to build all kinds of fun, no-nonsense science projects.'
 
@@ -13,7 +13,7 @@ FEED_DOMAIN = SITEURL
 
 PDF_GENERATOR = True
 
-USE_CLASSY_SUBTHEME = True
+USE_CLEAN_SUBTHEME = True
 
 SITELOGO = SITEURL+'/images/scienceclass.png'
 

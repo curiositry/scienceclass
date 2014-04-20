@@ -5,33 +5,36 @@
 <h2>All articles</h2>
 {% endblock %}
 
-<ol class="content__post-list">
-{% for article in articles_page.object_list %}
-  <li>
-    {% if article.coverimg %}
-    <div class="coverimage">
-      <img src="{{ article.coverimg }}" alt="{{ article.title }} Cover Image" />
-    </div>
-    {% endif %}
-    <article class="content__post">
-      <header> <h3 class="entry-title" style="font-weight: 700;line-height: 1.4em;"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3> </header>
-      <footer class="content__post-info">
-        <span class="published" title="{{ article.date.isoformat() }}"> Published: {{ article.locale_date }} </span> &bull;
-        <span class="author"> By 
-        {% if article.authors %}
-          {% for author in article.authors %}
-            <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-          {% endfor %}
-          {% else %}
-          {{ article.author }}
-        {% endif %}
-        </span>
-      </footer><!-- /.post-info -->
-      <div class="entry-content"> {{ article.summary }}</div><!-- /.entry-content<br clear="all"> --> 
-    </article>
-  </li>
-{% endfor %}
-</ol><!-- /#posts-list -->
+  <ol class="content__post-list">
+  {% for article in articles_page.object_list %}
+    <li>
+      <article class="content__post">
+        {% if article.coverimg %} 
+          <div class="coverimage">
+            <img src="{{ article.coverimg }}" alt="{{ article.title }} coverimage">
+          </div>
+          {% endif %}
+        <header> <h3 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3> </header>
+        <footer class="content__post-info">
+          <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+          <address class="vcard author">
+          <em>
+          By 
+          {% if article.authors %}
+            {% for author in article.authors %}
+              <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+            {% endfor %}
+            {% else %}
+            {{ article.author }}
+          {% endif %}
+          </em>
+          </address>
+        </footer>
+        <div class="entry-content"> {{ article.summary }} </div>
+      </article>
+    </li>
+  {% endfor %}
+  </ol><!-- /#posts-list -->
 {% include 'pagination.html' %}
 </section><!-- /.content -->
 {% endblock content %}
